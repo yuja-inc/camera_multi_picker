@@ -1,14 +1,14 @@
-name: multiple_image_camera
+name: camera_multi_picker
 description: A Flutter package for both android and iOS which provides Take Multiple Images from Camera.
-version: 0.0.2
-homepage: https://github.com/Adbhutashra26/Multiple-Image-Camera.git
+version: 0.0.5
+homepage: https://github.com/yuja-inc/camera_multi_picker
 
 environment:
-  sdk: '>=2.19.1 <4.0.0'
+  sdk: ">=2.19.1 <4.0.0"
   flutter: ">=1.17.0"
 
 dependencies:
-  camera: ^0.10.5+6
+  camera: ^0.10.5+9
   flutter:
     sdk: flutter
 
@@ -24,30 +24,4 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - assets/  
-  #
-  # For details regarding assets in packages, see
-  # https://flutter.dev/assets-and-images/#from-packages
-  #
-  # An image asset can refer to one or more resolution-specific "variants", see
-  # https://flutter.dev/assets-and-images/#resolution-aware
-
-  # To add custom fonts to your package, add a fonts section here,
-  # in this "flutter" section. Each entry in this list should have a
-  # "family" key with the font family name, and a "fonts" key with a
-  # list giving the asset and other descriptors for the font. For
-  # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
-  #       - asset: fonts/TrajanPro_Bold.ttf
-  #         weight: 700
-  #
-  # For details regarding fonts in packages, see
-  # https://flutter.dev/custom-fonts/#from-packages
+    - assets/

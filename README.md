@@ -32,11 +32,11 @@ A Flutter package for both android and iOS which provides Take Multiple Images f
 
 ## Installation
 
-First, add multiple_image_camera as a dependency in your pubspec.yaml file.
+First, add camera_multi_picker as a dependency in your pubspec.yaml file.
 
 iOS
 
-- The multiple_image_camera plugin compiles for any version of iOS, but its functionality requires iOS 10 or higher. If compiling for iOS 9, make sure to programmatically check the version of iOS running on the device before using any multiple_image_camera plugin features. The device_info_plus plugin, for example, can be used to check the iOS version.
+- The camera_multi_picker plugin compiles for any version of iOS, but its functionality requires iOS 10 or higher. If compiling for iOS 9, make sure to programmatically check the version of iOS running on the device before using any camera_multi_picker plugin features. The device_info_plus plugin, for example, can be used to check the iOS version.
 Add two rows to the ios/Runner/Info.plist:
 
 - one with the key Privacy - Camera Usage Description and a usage description.

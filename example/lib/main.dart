@@ -1,7 +1,8 @@
 import 'dart:io';
+import 'package:camera_multi_picker/picker_resolution_preset.dart';
 import 'package:flutter/material.dart';
-import 'package:multiple_image_camera/camera_file.dart';
-import 'package:multiple_image_camera/multiple_image_camera.dart';
+import 'package:camera_multi_picker/camera_file.dart';
+import 'package:camera_multi_picker/camera_multi_picker.dart';
 
 void main() {
   runApp(const MyApp());
@@ -45,8 +46,11 @@ class _MyHomePageState extends State<MyHomePage> {
           ElevatedButton(
             child: const Text("Capture"),
             onPressed: () async {
-              MultipleImageCamera.capture(
+              CameraMultiPicker.capture(
                 context: context,
+                maxPhotoes: 5,
+                isImagePreview: false,
+                resolution: PickerResolutionPreset.max,
               ).then((value) {
                 setState(() {
                   images = value;
